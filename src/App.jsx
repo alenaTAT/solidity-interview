@@ -5,7 +5,7 @@ import FillInTheBlankPage2 from "./pages/FillInTheBlankPage2";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/solidity-interview">
       <Routes>
         <Route path="/" element={<FillInTheBlankPage1 />} />
         <Route path="/page2" element={<FillInTheBlankPage2 />} />
